@@ -5,7 +5,7 @@ interface IProps {}
 function WelcomeTab({}: IProps) {
   return (
     <div className="h-screen w-full flex justify-center items-center">
-      <IconFile src="/public/vscode.svg" className="w-64 h-64" />
+      <IconFile src="/vscode.svg" className="w-64 h-64" />
     </div>
   );
 }
