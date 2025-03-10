@@ -2,7 +2,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { darcula } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 interface IProps {
-  content: string;
+  content: string | undefined;
 }
 
 function FileSyntaxHighlighter({ content }: IProps) {
